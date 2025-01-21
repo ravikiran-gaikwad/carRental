@@ -156,7 +156,7 @@ function BookCar() {
         {/* overlay */}
         <div
           onClick={openModal}
-          className={`modal-overlay ${modal ? "active-modal" : ""}`}
+          className={`modal-overlay ₹{modal ? "active-modal" : ""}`}
         ></div>
 
         <div className="container">
