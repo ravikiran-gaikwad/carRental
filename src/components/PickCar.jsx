@@ -31,7 +31,7 @@ function PickCar() {
               {/* pick car */}
               <div className="pick-box">
                 <button
-                  className={`${coloringButton("btn1")}`}
+                  className={`₹{coloringButton("btn1")}`}
                   onClick={() => {
                     setActive("SecondCar");
                     btnID("btn1");
@@ -40,7 +40,7 @@ function PickCar() {
                   Audi A1 S-Line
                 </button>
                 <button
-                  className={`${coloringButton("btn2")}`}
+                  className={`₹{coloringButton("btn2")}`}
                   id="btn2"
                   onClick={() => {
                     setActive("FirstCar");
@@ -50,7 +50,7 @@ function PickCar() {
                   VW Golf 6
                 </button>
                 <button
-                  className={`${coloringButton("btn3")}`}
+                  className={`₹{coloringButton("btn3")}`}
                   id="btn3"
                   onClick={() => {
                     setActive("ThirdCar");
@@ -60,7 +60,7 @@ function PickCar() {
                   Toyota Camry
                 </button>
                 <button
-                  className={`${coloringButton("btn4")}`}
+                  className={`₹{coloringButton("btn4")}`}
                   id="btn4"
                   onClick={() => {
                     setActive("FourthCar");
@@ -70,7 +70,7 @@ function PickCar() {
                   BMW 320 ModernLine
                 </button>
                 <button
-                  className={`${coloringButton("btn5")}`}
+                  className={`₹{coloringButton("btn5")}`}
                   id="btn5"
                   onClick={() => {
                     setActive("FifthCar");
@@ -80,7 +80,7 @@ function PickCar() {
                   Mercedes-Benz GLK
                 </button>
                 <button
-                  className={`${coloringButton("btn6")}`}
+                  className={`₹{coloringButton("btn6")}`}
                   id="btn6"
                   onClick={() => {
                     setActive("SixthCar");
